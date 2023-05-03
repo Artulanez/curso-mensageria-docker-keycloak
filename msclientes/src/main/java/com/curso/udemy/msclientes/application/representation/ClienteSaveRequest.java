@@ -1,4 +1,4 @@
-package com.curso.udemy.msclientes.application.represention;
+package com.curso.udemy.msclientes.application.representation;
 
 import com.curso.udemy.msclientes.domain.Cliente;
 import lombok.Data;

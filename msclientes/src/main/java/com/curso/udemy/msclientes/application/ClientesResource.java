@@ -1,17 +1,12 @@
 package com.curso.udemy.msclientes.application;
 
-import com.curso.udemy.msclientes.application.represention.ClienteSaveRequest;
-import com.curso.udemy.msclientes.domain.Cliente;
+import com.curso.udemy.msclientes.application.representation.ClienteSaveRequest;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
-import org.apache.http.protocol.ResponseServer;
-import org.springframework.data.repository.init.RepositoriesPopulatedEvent;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("clientes")
